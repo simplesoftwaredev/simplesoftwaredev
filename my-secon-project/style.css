@@ -1,0 +1,194 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    height: 100vh;
+    background: linear-gradient(#000000c3, #000000c3), url(/university.jpg);
+    background-size: contain,cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+main{
+    justify-content: center;
+   
+}
+footer{
+    position: relative;
+    bottom: 0;
+    height: 500px;
+    background-color: #444; 
+    color: #fff;
+}
+.head-one{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    background-color: #335;
+    padding: 10px;
+}
+.navbar-link ul{
+    display: flex;
+}
+.navbar-link li{
+    list-style: none;
+    font-size: 20px;
+    font-weight: 700;
+}
+.navbar-link a{
+    text-decoration: none;
+    margin: 10px;
+    color: #b8860b;
+}
+.navbar-link a:hover{
+    color: rgb(444, 330, 300);
+    border-radius: 10px;
+
+}
+.logo{
+    color: #ffe;
+    
+}
+.head-text{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    color: #fff;  
+}
+.loremhead{
+    width: 300px;
+    display: flex;
+    margin-inline: auto;
+    font-size: 18px;
+    color: #ff9;
+}
+.big{
+    position: relative;
+    top: 30%;
+    justify-content: center;
+    align-items: center;
+    height: 50vh;
+}
+.toggle-button{
+    position: absolute;
+    width: 30px;
+    height: 21px;
+    display: none;
+    flex-direction: column;
+    top: .40rem;
+    right: 1rem;
+    justify-content: space-around;
+
+}
+ .toggle-button .bar{
+    width: 100%;
+    background-color: aliceblue;
+    height: 3px;
+    
+}
+@media(max-width: 675px){
+    .navbar-link{
+        display: none;
+        width: 100%;
+    }
+    .toggle-button{
+        display: flex;
+    }
+    .head-one{
+        flex-direction: column;
+        align-items: flex-start;
+        width: 100%;
+
+    }
+    .navbar-link ul{
+        width: 100%;
+        flex-direction: column;
+    }
+    .navbar-link li{
+        text-align: center;
+    }
+    .navbar-link li{
+        padding: .5rem 1rem;
+    }
+    .navbar-link.active{
+        display: flex;
+    }
+    .logo{
+        display: flex;
+        margin-inline: auto;
+    }
+    .contact{
+       flex-direction: column;
+       text-align: center;
+    }
+    .four{
+        border-bottom: none;
+    }
+    header{
+       
+    }
+}
+/*The End of header*/
+.inst-page{
+    display: flex;
+    justify-content: center;
+    font-size: 25px;
+    font-weight: 500;
+}
+.headtwo{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 40px;
+}
+.three{
+    width: 200px;
+    height: 300px;
+    border-radius: 10px;
+}
+img{
+    width: 160px;
+    height: 160px;
+    object-fit: cover;
+    border-radius: 80px;
+    margin-inline: auto;
+    display: flex;
+    padding: 10px;
+}
+.innertext{
+    margin: 5px;
+}
+.innerone{
+    margin: 10px;
+}
+.fot1{
+    display: flex;
+    justify-content: center;
+}
+.fot2{
+    width: 300px;
+    display:flex;
+    margin: auto;
+   padding: 10px;
+}
+.contact{
+    display: flex;
+    justify-content: space-around;
+    padding: 40px;
+    color: #000000;
+    font-size: 23px;
+    font-weight: bold;
+    flex-wrap: wrap;
+    
+}
+.four{
+    border-bottom: 1px solid;
+    color: rgb(105, 160, 160);
+    padding: 5px;
+    flex-direction: column;
+    flex-direction: row;
+}
+.four:hover{
+    color: chocolate;
+}
