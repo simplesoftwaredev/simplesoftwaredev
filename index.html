@@ -2,112 +2,107 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 <body>
-   <div class="head-one">
-    <nav class="Navbar">
-        <div class="logo">Port<span>folio</span></div>
-        <a href="#" class="toggle-button">
-            <span class="bar"></span>
-            <span class="bar"></span>
-            <span class="bar"></span>
-        </a>
-        <div class="navbar-link">
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="#about-me">About me</a></li>
-                <li><a href="#services">Services</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </div>
-    </nav>
-    <p class="hero-text"> <span>Abdu</span><br>
-    I'm a software Developer & Youtuber...</p>
-</div>
-<section class="head-two" id="about-me">
-    <div class="image">
-        <img src="/my-image.png2.jpg" alt="imag head" class="img">
-    </div>
-    <div class="text">
-        <h2 class="abt-me">About me</h2>
-        <p class="lorem-text">Hello. My name is<span> Abdu.</span><br>I'm a software developer & Youtuber....<br>We help Start-Ups, Small Businesses, and agencies<br> to achieve high-quality websites and exceptional users experience.<br> I'm passionate about Technologies and also open to collaborations.</p>
-    </div>
-</section>
-<section class="head-three" id="services">
-    <h2 class="servhead">Our Services</h2>
-    <div class="services-container">
-        <div class="one">
-            <h2 class="headtext">Web Design</h2>
-            <div class="icon"><i class="fa fa-edit" aria-hidden="true"></i>
-            </div>
-            <p class="inner-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis facilis asperiores, dignissimos !</p>
-            <button class="btn-2">Read More</button>
-        </div>
-        <div class="one">
-            <h2 class="headtext">Web Development</h2>
-            <div class="icon"><i class="fa fa-globe" aria-hidden="true"></i>
-            </div>
-            <p class="inner-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis facilis asperiores, dignissimos!</p>
-            <button class="btn-2">Read More</button>
-        </div>
-        <div class="one">
-            <h2 class="headtext">Mobile-apps Development</h2>
-            <div class="icon"><i class="fa fa-mobile" aria-hidden="true"></i>
-            </div>
-            <p class="inner-text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis facilis asperiores, dignissimos  !</p>
-            <button class="btn-2">Read More</button>
-        </div>
-    </div>
-</section>
-<footer class="contact" id="contact">
-    <div class="content">
-        <h3 id="first">Get in Touch</h3>
-    </div>
-    <div class="container">
-        <div class="contact-info">
-            <div class="box">
-                <h3 class="underbox">Address</h3>
-                <div class="fot-icon"><i class="fa fa-map-marker" aria-hidden="true"></i></div>
-                <p class="adrs-text">93094 Sweet Straße <br> Regensburg, Germany</p>
-            </div>
+   <header>
+       <div class="navbar">
+           <div class="logo">LOGO</div>
+           <a href="#" class="toggle-bar">
+               <span class="bar"></span>
+               <span class="bar"></span>
+               <span class="bar"></span>
+           </a>
 
-            <div class="box">
-                <h3 class="underbox">Phone</h3>
-                <div class="fot-icon"><i class="fa fa-phone" aria-hidden="true"></i></div>
-                <p class="adrs-text">015211034345</p>
-            </div>
+          <div class="nav-link">
+              <ul>
+                  <li><a href="#">Home</a></li>
+                  <li><a href="#">About</a></li>
+                  <li><a href="#">Services</a></li>
+                  <li><a href="#">Contact</a></li>
+              </ul>
+          </div>
+       </div>
+    <video class="video" muted autoplay loop>
+        <source src="/coder.mp4"  type="video/mp4">
+    </video>
+    <h2>I'm software developer <br> </h2>
+   
+    <button class="switch-btn">
+        <span class="one">play</span>
+        <span class="one">pause</span>
+        <span class="switch"></span>
+    </button>
+   </header>
+   <section>
+       <div class="about-box">
+           <h3 class="two">About me</h3>
+           <div class="box">
+               <div class="inner-box">
+                   <div class="image-box">
+                       <img src="/headshot.jpg" id="box-im" alt="image headshot">
+                   </div>
+               </div>
+               <div class="inner-box">
+                   <h3 class="job">I'm seftware developer </h3>
+                   <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Aspernatur velit facilis laudantium recusandae porro quasi adipisci excepturi assumenda veritatis, voluptate quibusdam beatae ipsam laboriosam incidunt consectetur suscipit aliquid esse, enim amet at accusantium, possimus officiis? Quibusdam quos perspiciatis mollitia nesciunt...</p>
+                   <button class="btn">read more</button>
+               </div>
+           </div>
+       </div>
+   </section>
+   <section>
+       <h4 class="team-one">Team</h4>
+       <div class="team-head">
+           <div class="person">
+               <img src="/head1.jpg" class="team-img" alt="">
+               <h3 class="team-name">I'm Ben,</h3>
+               <p class="team-job">i'm software developer. <br> Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quod commodi obcaecati quis qui vero natus.</p>
 
-            <div class="box">
-                <h3 class="underbox">E-Mail</h3>
-                <div class="fot-icon"><i class="fa fa-envelope" aria-hidden="true"></i></div>
-                <p class="adrs-text">topsoftdevp@gmail.com</p>
+           </div>
+           <div class="person">
+               <img src="/head2.jpg" class="team-img" alt="">
+               <h3 class="team-name">I'm Dina</h3>
+               <p class="team-job">i'm Web Designer & Developer. <br>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Qui, molestiae.</p>
+           </div>
+           <div class="person">
+               <img src="/head3.jpg" class="team-img" alt="">
+               <h3 class="team-name">I'm Christin</h3>
+               <p class="team-job">i'm Fullstack developer. <br>Lorem ipsum dolor sit amet consectetur adipisicing elit. Minima quia totam nobis unde impedit perferendis magni!</p>
+           </div>
+       </div>
+   </section>
+   <section>
+       <h1 class="two">Services</h1>
+       <span class="bare"></span>
+       <div class="service-head">
+           <div class="service-box">
+               <h4 class="title"> Fullstack Dev</h4>
+               <div class="icon">
+                <i class="fa fa-globe" aria-hidden="true"></i>
             </div>
-            <div class="social-media">
-                <h5 class="folow">Follow me</h5>
-                <a href="https://www.facebook.com"><i class="fa fa-facebook" aria-hidden="true"></i></a>
-                <a href="https://www.twitter.com"><i class="fa fa-twitter" aria-hidden="true" ></i></a>
-                <a href="https://www.youtube.com"><i class="fa fa-youtube" aria-hidden="true" ></i></a>
-            </div> 
-        </div>
-        <div class="contact-form">
-            <form>
-                <input type="text" placeholder="your name" required='required' class="inputbox-name">
-                <input type="text" placeholder="your e-mail" required='required' class="inputbox-email">
-                <br>
-                <input type="text" placeholder="subject" required='required' class="inputbox-subject">
-                <br>
-                <textarea name="fname" id="lname" cols="30" rows="10"  placeholder="Type your Message!" class="inputbox-message"></textarea>
-                <br>
-                <input type="submit" value="Send" class="inputbox-submit">  
-            </form>
-        </div>
-    </div>
-</footer>
-<p class="footer-botom"> &copy;2021 All Right Deserved</p>
-   <script src="app.js"></script>
+               <p class="p-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non nihil repudiandae iusto sed, esse maxime est reprehenderit voluptate mollitia accusamus eligendi quasi quas quae incidunt, iure nulla rerum totam pariatur.</p>
+           </div>
+           <div class="service-box">
+            <h4 class="title">Web Design</h4>
+            <div class="icon">
+                <i class="fa fa-edit " aria-hidden="true"></i>      
+            </div>
+            <p class="p-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non nihil repudiandae iusto sed, esse maxime est reprehenderit voluptate mollitia accusamus eligendi quasi quas quae incidunt, iure nulla rerum totam pariatur.</p>
+           </div>
+           <div class="service-box">
+            <h4 class="title">Web Dev</h4>
+            <div class="icon">
+                <i class="fa fa-desktop" aria-hidden="true"></i>
+            </div>
+            <p class="p-text">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Non nihil repudiandae iusto sed, esse maxime est reprehenderit voluptate mollitia accusamus eligendi quasi quas quae incidunt, iure nulla rerum totam pariatur.</p>
+           </div>
+       </div>
+   </section>
+    <script src="app.js"></script>
 </body>
 </html>
